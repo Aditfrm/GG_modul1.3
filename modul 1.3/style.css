@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  text-align: justify;
+}
+
+.foto {
+  margin-right: 30px;
+}
