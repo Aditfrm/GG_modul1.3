@@ -1,10 +1,68 @@
 .content {
   display: flex;
   align-items: center;
-  width: 500px;
-  text-align: justify;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 19px;
+  width: 700px;
 }
 
 .foto {
   margin-right: 30px;
+}
+
+.content img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+header h2 {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.foto .desc {
+  margin-left: 20px;
+}
+
+.foto h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.foto h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.foto p {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.add-song {
+  margin: 30px;
+  text-align: center;
+}
+
+.add-song input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.add-song button {
+  padding: 5px;
+  background-color: #161817;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
